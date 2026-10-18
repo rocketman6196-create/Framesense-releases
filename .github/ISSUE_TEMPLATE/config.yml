@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Feature idea
+    url: https://github.com/rocketman6196-create/Framesense-releases/issues/new?labels=idea&title=Idea%3A+
+    about: Suggest something FrameSense should explain or show.

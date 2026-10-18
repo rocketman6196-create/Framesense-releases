@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in FrameSense doesn't work or shows a wrong value.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. In FrameSense, open **Settings → About → Copy diagnostics** and paste the result below.
+        It lists versions, hardware and permissions, and the last crash, but not your name or files.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did FrameSense do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: The game, what you clicked, and whether it happens every time.
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Settings → About → Copy diagnostics, then paste here.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images here.
